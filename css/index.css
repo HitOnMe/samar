@@ -53,7 +53,6 @@ a {
     font-weight: 500
 }
 
-/* set width's section */
 /* set background color */
 .bg__gradient {
     background-image: linear-gradient(to right, #f55f8d 0, #f8ae56 51%, #f55f8d 100%)
@@ -212,6 +211,7 @@ header img{
     padding: 30px 45px;
     box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.1);
     border: 3px solid transparent;
+    border-radius: 5px;
     transition: all .5s
 }
 .services__content:hover {
@@ -584,7 +584,6 @@ header img{
     color:white
 }
 
-
 .foot__bottom p, .foot__bottom i, .foot__bottom h2{
     color: white
 }
@@ -651,8 +650,9 @@ header img{
     font-weight: 400;
     transition: all .5s
 }
-.contact__form input:hover{
-    border-color:#f58a5f
+.contact__form input:hover, .contact__form input:focus{
+    border-color:#f58a5f;
+
 }
 .contact button {
     width:17%;
